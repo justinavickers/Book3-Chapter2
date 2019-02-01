@@ -6,6 +6,20 @@
       "color": "Black",
       "shape": "Animal",
       "creation": "Black Cow"
+    },
+    {
+      "lego__creator": "Justina",
+      "lego__color": "Blue",
+      "lego__shape": "Rectangle",
+      "lego__creation": "Tardis",
+      "id": 2
+    },
+    {
+      "lego__creator": "abbey",
+      "lego__color": "Yellow",
+      "lego__shape": "circle",
+      "lego__creation": "flower",
+      "id": 3
     }
   ]
 }
