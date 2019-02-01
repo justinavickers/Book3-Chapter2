@@ -1,25 +1,36 @@
-<!doctype html> 
-	<html lang="en">
-	<head>
-	  <meta charset="utf-8">
-	    <title>Nashville Software School</title>
-	      <link rel="stylesheet" href="./main.css">
+<!doctype html>
+<html lang="en">
 
-	      </head>
+<head>
+	<meta charset="utf-8">
+	<title>Nashville Software School</title>
+	<link rel="stylesheet" href="./main.css">
 
-	      <body>
-	        <nav></nav>
+</head>
 
-		  <header></header>
+<body>
+	<form>
+		<fieldset>
+			<label for="lego__creator">Creator:</label>
+			<input id="lego__creator" name="lego__creator" type="text" autofocus />
+			<label for="color">Color:</label>
+			<select id="lego__color">
+				<option value="1">Red</option>
+				<option value="2">Green</option>
+				<option value="3">Yellow</option>
+				<option value="4">Blue</option>
+				<option value="5">Orange</option>
+				<option value="6">Black</option>
+		</select>
+			<label for="shape">Shape:</label>
+			<input id="lego__shape" name= "" type="text" autofocus/>
+			<label for="creation">Creation:</label>
+			<input id="lego__creation" name="" type="text" autofocus/>
+		</fieldset>
+		<button class="saveBTN">Save Lego Creation</button>
+	</form>
 
-		    <article>
-		        <header></header>
-			    <section></section>
-			        <footer></footer>
-				  </article>
+	<script src="./collectingUserInput.js"></script>
+</body>
 
-				    <footer></footer>
-
-				      <script src="./collectingUserInput.js"></script>
-				      </body>
-				      </html>
+</html>
