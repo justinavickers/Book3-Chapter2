@@ -20,6 +20,27 @@
       "lego__shape": "circle",
       "lego__creation": "flower",
       "id": 3
+    },
+    {
+      "lego__creator": "jal",
+      "lego__color": "1",
+      "lego__shape": "square",
+      "lego__creation": "Dog",
+      "id": 4
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "Blue"
+    },
+    {
+      "id": 2,
+      "name": "Red"
+    },
+    {
+      "id": 3,
+      "name": "Pink"
     }
   ]
 }

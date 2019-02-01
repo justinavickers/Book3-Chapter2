@@ -1,6 +1,6 @@
 document.querySelector(".saveBTN").addEventListener("click", event => {
   const creator = document.querySelector("#lego__creator").value
-  const color = document.getElementById("lego__color").value
+  const color = document.getElementById("colors").value
   const shape = document.getElementById("lego__shape").value
   const creation = document.getElementById("lego__creation").value
 
